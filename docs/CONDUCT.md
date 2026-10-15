@@ -135,6 +135,7 @@ For answers to common questions about this code of conduct, see the FAQ at [http
 
 ![Kevin's Signature](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fdrive.google.com/uc?id=1R2RHq82apV2wu-69gkiS-ZolpG_LFlCc)
 ![DJ's Signature](https://drive.google.com/uc?export=view&id=1MaKZ8x2cdeUeEdLvoxFDjUAL-uoYUzRt)
+![Teagan Norconk Signature](https://drive.google.com/uc?export=view&id=1euxvDyGpJjmARRjhh0YhsHtG4LThOcpS)
 
 
 <!-- Each team member must upload an image of their handwritten signature to their own Google Drive and add their own Markdown image link below in a separate Git commit. Verify that the image renders in GitHub. Do not add another member's signature on their behalf. -->
