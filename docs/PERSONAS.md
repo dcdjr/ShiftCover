@@ -1,0 +1,4 @@
+## [Hourly Employee Seeking Shift Coverage](https://docs.google.com/presentation/d/1e4B8--LWU-3wKy2wCM8kwU3-ZvmZSQSE9rA3AMgSQj8/edit?slide=id.p#slide=id.p)
+## [Shift-Lead/ Assistant Manager](https://docs.google.com/presentation/d/1e4B8--LWU-3wKy2wCM8kwU3-ZvmZSQSE9rA3AMgSQj8/edit?slide=id.h4a99bbe93919750_0_61#slide=id.h4a99bbe93919750_0_61)
+## [Small Business Owner, Oversees Staffing](https://docs.google.com/presentation/d/1e4B8--LWU-3wKy2wCM8kwU3-ZvmZSQSE9rA3AMgSQj8/edit?slide=id.h4a99bbe93919750_0_77#slide=id.h4a99bbe93919750_0_77)
+## [Employees Looking to Pick Up Extra Shifts](https://docs.google.com/presentation/d/1e4B8--LWU-3wKy2wCM8kwU3-ZvmZSQSE9rA3AMgSQj8/edit?slide=id.h4a99bbe93919750_0_90#slide=id.h4a99bbe93919750_0_90)
