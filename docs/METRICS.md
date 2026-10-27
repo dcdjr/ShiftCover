@@ -6,7 +6,7 @@
 
 ## Data Collection Methodology
 
-<!-- Teagan's bullet goes here -->
+- *Adoption (New User Signups per Week)*: Use Firebase Authentication to track the creation of new ShiftCover accounts. Firebase automatically records when each account is created, allowing us to count the number of new registered users each week. FlutterFlow can also log the sign_up event through Firebase Analytics.
 <!-- Kevin's bullet goes here -->
 <!-- Mark's bullet goes here -->
 - *Retention*: Use the Firebase Analytics retention report to measure how many users return within the first seven days after initially opening ShiftCover. Firebase's automatically collected first_open and engagement events support this measurement.
