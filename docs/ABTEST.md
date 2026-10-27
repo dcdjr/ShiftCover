@@ -34,3 +34,44 @@ Variation A             Variation B
 ```
 
 We expect Variation B to produce a higher CTR because it communicates the user's goal more directly.
+
+
+
+### A/B Test 4: Request Coverage Button Style
+
+**A/B Test Name:** Filled vs. Outlined Request Coverage Button
+
+**User Story Number:** US4 - Golden Path: Shift Coverage
+
+**Metrics:** Request Coverage Click-Through Rate (CTR), Number of Coverage Requests Created per Week
+
+**Hypothesis:**
+
+Employees may overlook the Request Coverage button if it does not stand out from the other elements on the shift details screen. We hypothesize that using a filled button instead of an outlined button will make the action more noticeable and increase the number of employees who request shift coverage.
+
+**Experiment:**
+
+Using Firebase A/B Testing and Remote Config, we will randomly divide eligible users into two equal groups. Group A will see an outlined Request Coverage button, while Group B will see a filled version of the same button.
+
+Firebase Analytics will track visits to the shift details screen using screen_view and button clicks using the custom request_coverage_clicked event. We will also count successfully created coverage requests in Firestore.
+
+We will compare CTR and the number of coverage requests between the two groups to determine which button style is more effective.
+
+**Variations:**
+
+- **Variation A (Control):** An outlined Request Coverage button with a transparent background.
+- **Variation B (Test):** A filled Request Coverage button using the application's primary color.
+
+Both variations will use identical text, size, placement, and functionality. Only the button's visual style will change.
+
+**Mockup:**
+
+```text
+Variation A             Variation B
+
+┌──────────────────┐    ████████████████████    
+│ Request Coverage │    █ Request Coverage █
+└──────────────────┘    ████████████████████
+```
+
+We expect Variation B to produce a higher CTR because the filled button is more visually prominent.
