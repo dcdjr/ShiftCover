@@ -1,5 +1,7 @@
 # ShiftCover
 
-## Code of Conduct
+A new Flutter project.
 
-This project follows the [Contributor Covenant Code of Conduct](docs/CONDUCT.md). All team members are expected to follow the standards and team agreements outlined in this document.
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.

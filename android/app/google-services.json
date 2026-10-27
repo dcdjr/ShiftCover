@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "393462876720",
+    "project_id": "shift-cover-t2hgk4",
+    "storage_bucket": "shift-cover-t2hgk4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393462876720:android:3075b226c45177c956bbf5",
+        "android_client_info": {
+          "package_name": "com.mycompany.shiftcover"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCen3_uN5Gb4X4Aks8vEJKoTnwQ3RMk9WY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
