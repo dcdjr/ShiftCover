@@ -70,6 +70,44 @@ Variation A             Variation B
 
 We expect Variation B to increase adoption because the wording is shorter and more familiar to users.
 
+A/B Test 3: Password Requirements Hint
+
+A/B Test Name: Displaying Password Requirements During Registration
+
+User Story Number: US1 - Account Creation
+
+Metrics: Adoption (New User Signups per Week)
+
+Hypothesis:
+Users may encounter errors during registration because they are unaware of password requirements until they attempt to create an account. We hypothesize that displaying password requirements directly below the password field will reduce confusion and increase successful registrations.
+
+Experiment:
+Using Firebase A/B Testing and Remote Config, we will randomly divide new users into two equal groups. Group A will see the registration form without an upfront password requirements hint, while Group B will see a short message below the password field explaining the minimum password length.
+Firebase Analytics will track registration page views using screen_view and successful registrations using sign_up. We will compare registration completion rates between the two groups to determine whether displaying password requirements improves adoption.
+
+Variations:
+
+Variation A (Control): The password field does not display password requirements beforehand.
+
+Variation B (Test): The password field displays "Password must be at least 8 characters" directly underneath it.
+
+Both variations will enforce the same password requirements. Only the visibility of the password hint will change.
+
+Mockup:
+
+Variation A:
+
+Password: [ ******** ]
+
+Variation B:
+
+Password: [ ******** ]
+
+Password must be at least 8 characters.
+
+We expect Variation B to improve adoption by helping users avoid registration errors.
+
+
 
 ### A/B Test 4: Request Coverage Button Style
 
