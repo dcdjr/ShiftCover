@@ -35,6 +35,40 @@ Variation A             Variation B
 
 We expect Variation B to produce a higher CTR because it communicates the user's goal more directly.
 
+### A/B Test 2: Sign Up Button Wording
+
+**A/B Test Name:** Create Account vs. Sign Up Button Wording
+
+**User Story Number:** US1 - Account Creation
+
+**Metrics:** Adoption (New User Signups per Week)
+
+**Hypothesis:**
+
+New users may be less likely to complete registration if the signup button does not clearly communicate its purpose. We hypothesize that using the more familiar wording "Sign Up" instead of "Create Account" will encourage more users to register for ShiftCover.
+
+**Experiment:**
+
+Using Firebase A/B Testing and Remote Config, we will randomly divide new users into two equal groups. Group A will see a button labeled "Create Account," while Group B will see "Sign Up."
+Firebase Analytics will track registration page views using the screen_view event and successful account creation using the sign_up event. We will compare the number of successful registrations and registration completion rates between the two groups.
+
+**Variations:**
+
+- **Variation A (Control):** The registration button displays "Create Account."
+- **Variation B (Test):** The registration button displays "Sign Up."
+Both variations will use the same button size, color, placement, and registration functionality. Only the button text will change.
+
+**Mockup:**
+
+```text
+Variation A             Variation B
+
+┌──────────────────┐    ┌──────────────────┐
+│  Create Account  │    │      Sign Up     │
+└──────────────────┘    └──────────────────┘
+```
+
+We expect Variation B to increase adoption because the wording is shorter and more familiar to users.
 
 
 ### A/B Test 4: Request Coverage Button Style
