@@ -8,6 +8,7 @@
 
 - *Adoption (New User Signups per Week)*: Use Firebase Authentication to track the creation of new ShiftCover accounts. Firebase automatically records when each account is created, allowing us to count the number of new registered users each week. FlutterFlow can also log the sign_up event through Firebase Analytics.
 <!-- Kevin's bullet goes here -->
+*Daily Active Users (DAU)*: Enable Google Analytics in FlutterFlow and use the Firebase Analytics dashboard to track the number of unique users who actively use ShiftCover each day. Firebase automatically collects events such as session_start and user_engagement, allowing us to measure daily activity without implementing additional tracking.
 <!-- Mark's bullet goes here -->
 - *NPS (Net Promoter Score):* After a user completes the Golden Path (their shift is claimed and approved, or they pick up a shift), show a one-question survey in a FlutterFlow bottom sheet: "How likely are you to recommend ShiftCover to a coworker? (0-10)." Save the answer to the Firestore nps_responses collection with user_id, score, role, and timestamp, and log a Firebase Analytics custom event nps_submitted with the score as a parameter. Each user is asked at most once every 30 days. NPS = % of promoters (9-10) minus % of detractors (0-6).
 - *Retention*: Use the Firebase Analytics retention report to measure how many users return within the first seven days after initially opening ShiftCover. Firebase's automatically collected first_open and engagement events support this measurement.
