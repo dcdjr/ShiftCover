@@ -1,5 +1,11 @@
 # A/B Tests
 
+## Selected experiment for CSC305 Exercise 8.7
+
+**A/B Test 2: Sign Up Button Wording** is the experiment the team selected. The current FlutterFlow `main` implementation binds the Signup button text to the Firebase Remote Config string parameter `cta_text`, with **Create Account** as the default (A) and **Sign Up** as the planned variation (B). Teagan is handling the experiment implementation. Web and Android experiment setup, variant delivery, and successful `sign_up` event reporting must be verified separately before marking the experiment complete.
+
+The other tests below remain documented proposals; they are not additional experiments selected for this exercise.
+
 ### A/B Test 1: Request Coverage Button Wording
 
 **User Story Number:** US4 - Golden Path: Shift Coverage
